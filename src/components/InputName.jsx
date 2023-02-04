@@ -27,9 +27,6 @@ const InputName = () => {
         <div className='fondo-input'>
             <video className='input-video' src={openingpokemon} autoPlay loop></video>
             <div className='input-name'>
-                <nav className='volume'>
-                    {volume ? <i onClick={soundVolume} class="fa-solid fa-volume-low"></i> : <i onClick={soundVolume} class="fa-solid fa-volume-xmark"></i>}
-                </nav>
                 <img className='logo-imagen' src={pokemongo} alt="Logo" />
                 <h2 className='input-h2'>iniciar sesión:</h2>
                 <input className='input-sesión'
